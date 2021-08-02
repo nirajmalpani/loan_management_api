@@ -2,15 +2,13 @@
 
 An API which facilitates the working of a minimal loan management system
 
-**Theme of the API**
+**Background of the API**
 
 - There are three types of users:- Customer, Agent, Admin<br/>
 - Customer is the client who makes a request for the loan<br/>
-- Agent is the middleman associated with the bank who has certain authourities such as edit loans,<br/>
-  listing users, and making loan request on behalf of customer<br/>
+- Agent is the middleman associated with the bank who has certain authourities such as edit loans, listing users, and making loan request on behalf of customer<br/>
 - Admin is the highest authority who can approve or reject a loan <br/>
 - Admin, cutomers and agents can login<br/>
-- When an agent will signup a request will be sent to the admin for approvalxxxxxx<br/>
 - A loan has entities such as principle, interest rate, months to repay, emi and status<br/>
 - The value of interest rate would depend on the value of principlexxxxxxxxx<br/>
 - The loan can have 3 kinds of status: Approved, New or Rejected
@@ -47,16 +45,16 @@ Passport-jwt, Jsonwebtoken, md5, Mocha, Chai
 
 **Routes**
 
-> /users/signup<br />
-> /users/login<br />
-> /users/listUsers<br />
-> /users/updatePassword<br />
-> /users/loan/newLoan<br />
-> /users/loan/approveLoan<br />
-> /users/loan/rejectLoan<br />
-> /users/loan/editLoan<br />
-> /users/loan/allLoans<br />
-> /users/loan/loansbyFilter<br />
+> /user/signup<br />
+> /user/login<br />
+> /user/listUsers<br />
+> /user/updatePassword<br />
+> /user/loan/newLoan<br />
+> /user/loan/approveLoan<br />
+> /user/loan/rejectLoan<br />
+> /user/loan/editLoan<br />
+> /user/loan/allLoans<br />
+> /user/loan/loansbyFilter<br />
 
 **Set up Project using Docker files**
 
